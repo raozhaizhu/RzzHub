@@ -1,0 +1,69 @@
+[
+    {
+        "id": "6",
+        "title": "Top 100 Game Sales",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-17T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "/top100.png",
+        "type": "D3charts",
+        "description": "Show the top 100 most sold video games grouped by platform.",
+        "link": "https://raozhaizhu.github.io/projects/25.Tree%20Map/index.html"
+    },
+    {
+        "id": "5",
+        "title": "US Educational Attainment",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-16T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "https://i.imgur.com/iwnEaK6.png",
+        "type": "D3charts",
+        "description": "Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014).",
+        "link": "https://raozhaizhu.github.io/projects/24.US%20Educational%20Attainment/index.html"
+    },
+    {
+        "id": "4",
+        "title": "Heat Map",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-15T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "https://i.imgur.com/hendNVB.png",
+        "type": "D3charts",
+        "description": "Monthly Global Land-Surface Temperature during 1753-2015.(base temperature 8.6℃)",
+        "link": "https://raozhaizhu.github.io/projects/23.Heat%20Map/index.html"
+    },
+    {
+        "id": "3",
+        "title": "Quote Generator",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-03T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "/quoteApp.png",
+        "type": "Web App",
+        "description": "A web app that generates random inspirational quotes to motivate and uplift users.",
+        "link": "https://raozhaizhu.github.io/rzz/Quote"
+    },
+    {
+        "id": "2",
+        "title": "Drum Machine",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-02T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "/drumMachine.png",
+        "type": "Web App",
+        "description": "A web-based drum machine for creating and experimenting with custom beats and rhythms.",
+        "link": "https://raozhaizhu.github.io/rzz/Drum"
+    },
+    {
+        "id": "1",
+        "title": "Markdown Previewer",
+        "author": "Raozhaizhu",
+        "published_at": "2025-01-01T08:00:00Z",
+        "updated_at": "2025-01-16T12:00:00Z",
+        "img": "/markdownApp.png",
+        "type": "Web App",
+        "description": "A tool that allows users to see real-time previews of their Markdown syntax as they write.",
+        "link": "https://raozhaizhu.github.io/rzz/Markdown"
+    }
+]
+
