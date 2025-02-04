@@ -1,5 +1,5 @@
 // src/components/layout/header.tsx
-import { inter, dancingScript, libreBaskerville } from '@/components/ui/fonts';
+import { inter, libreBaskerville } from '@/components/ui/fonts';
 
 const MainInfo = () => {
     return (
