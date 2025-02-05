@@ -1,6 +1,6 @@
-import Container from '@/components/layout/container';
-import Hero from '@/components/layout/hero';
-import Section from '@/components/layout/section';
+import Container from '@/components/layout/Container';
+import Hero from '@/components/layout/Hero';
+import Section from '@/components/layout/Section';
 import blogsData from '@/data/blogs.json'; // 导入 JSON 数据
 import projectsData from '@/data/projects.json'; // 导入 JSON 数据
 

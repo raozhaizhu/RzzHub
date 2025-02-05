@@ -1,0 +1,233 @@
+.preview {
+    background-color: #fff;
+
+    /* =============== 标题样式 =============== */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 0.3em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.25em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: 0.875em;
+        color: #666;
+    }
+
+    /* =============== 文本样式 =============== */
+    strong,
+    b {
+        font-weight: bold;
+    }
+
+    em,
+    i {
+        font-style: italic;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    /* =============== 列表样式 =============== */
+    ul,
+    ol {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* 有序列表样式 */
+    ol {
+        list-style-type: decimal; // 保持默认数字样式
+
+        /* 嵌套有序列表样式 */
+        ol {
+            list-style-type: lower-alpha; // 二级使用小写字母
+
+            ol {
+                list-style-type: lower-roman; // 三级使用小写罗马数字
+            }
+        }
+    }
+
+    /* 无序列表样式 */
+    ul {
+        list-style: none; // 移除默认圆点
+
+        li {
+            position: relative;
+            padding-left: 1.2em; // 为标记留出空间
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0.75em; // 垂直居中对齐
+                transform: translateY(-50%);
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background-color: #007bff;
+            }
+        }
+
+        /* 不同层级的无序列表色块 */
+        ul {
+            li::before {
+                background-color: #6bbcff;
+            }
+
+            ul li::before {
+                background-color: #91caff;
+            }
+
+            ul ul li::before {
+                background-color: #b8daff;
+            }
+        }
+    }
+
+    /* 列表项通用样式 */
+    li {
+        margin-bottom: 8px;
+        line-height: 1.5; // 确保行高一致
+
+        &:hover {
+            background-color: #f0f8ff;
+            border-radius: 4px;
+            transition: background-color 0.2s ease;
+        }
+    }
+
+    /* 列表嵌套缩进 */
+    ul ul,
+    ol ol {
+        padding-left: 24px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    /* =============== 链接样式 =============== */
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #0056b3;
+    }
+
+    /* =============== 图片样式 =============== */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px 0;
+        border-radius: 4px;
+    }
+
+    /* =============== 代码块样式 =============== */
+    code {
+        background-color: #f8f9fa;
+        padding: 2px 4px;
+        border-radius: 4px;
+    }
+
+    pre {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        overflow-x: auto;
+        font-family: 'Courier New', monospace;
+    }
+
+    pre:hover {
+        background-color: #e9ecef;
+    }
+
+    /* =============== 引用样式 =============== */
+    blockquote {
+        border-left: 4px solid #ddd;
+        padding-left: 15px;
+        color: #666;
+        margin: 20px 0;
+        font-style: italic;
+    }
+
+    blockquote:hover {
+        background-color: #f8f8f8;
+    }
+
+    /* =============== 表格样式 =============== */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table th,
+    table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    table th {
+        background-color: #f8f8f8;
+        font-weight: bold;
+    }
+
+    /* =============== 表格悬停效果 =============== */
+    table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* =============== 任务列表样式 =============== */
+    .task-list-item {
+        list-style-type: none;
+    }
+
+    .task-list-item input {
+        margin-right: 10px;
+    }
+
+    /* =============== 悬停效果和过渡动画 =============== */
+    body,
+    a,
+    li,
+    blockquote,
+    pre,
+    table th,
+    table td {
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+}
+

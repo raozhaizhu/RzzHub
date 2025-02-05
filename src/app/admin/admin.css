@@ -1,0 +1,193 @@
+@charset "UTF-8";
+.preview {
+  background-color: #fff;
+  /* =============== 标题样式 =============== */
+  /* =============== 文本样式 =============== */
+  /* =============== 列表样式 =============== */
+  /* 有序列表样式 */
+  /* 无序列表样式 */
+  /* 列表项通用样式 */
+  /* 列表嵌套缩进 */
+  /* =============== 链接样式 =============== */
+  /* =============== 图片样式 =============== */
+  /* =============== 代码块样式 =============== */
+  /* =============== 引用样式 =============== */
+  /* =============== 表格样式 =============== */
+  /* =============== 表格悬停效果 =============== */
+  /* =============== 任务列表样式 =============== */
+  /* =============== 悬停效果和过渡动画 =============== */
+}
+.preview h1,
+.preview h2,
+.preview h3,
+.preview h4,
+.preview h5,
+.preview h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.preview h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+.preview h2 {
+  font-size: 1.75em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+}
+.preview h3 {
+  font-size: 1.5em;
+}
+.preview h4 {
+  font-size: 1.25em;
+}
+.preview h5 {
+  font-size: 1em;
+}
+.preview h6 {
+  font-size: 0.875em;
+  color: #666;
+}
+.preview strong,
+.preview b {
+  font-weight: bold;
+}
+.preview em,
+.preview i {
+  font-style: italic;
+}
+.preview del {
+  text-decoration: line-through;
+}
+.preview ul,
+.preview ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.preview ol {
+  list-style-type: decimal;
+  /* 嵌套有序列表样式 */
+}
+.preview ol ol {
+  list-style-type: lower-alpha;
+}
+.preview ol ol ol {
+  list-style-type: lower-roman;
+}
+.preview ul {
+  list-style: none;
+  /* 不同层级的无序列表色块 */
+}
+.preview ul li {
+  position: relative;
+  padding-left: 1.2em;
+}
+.preview ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+.preview ul ul li::before {
+  background-color: #6bbcff;
+}
+.preview ul ul ul li::before {
+  background-color: #91caff;
+}
+.preview ul ul ul ul li::before {
+  background-color: #b8daff;
+}
+.preview li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.preview li:hover {
+  background-color: #f0f8ff;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+.preview ul ul,
+.preview ol ol {
+  padding-left: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.preview a {
+  color: #007bff;
+  text-decoration: none;
+}
+.preview a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.preview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.preview code {
+  background-color: #f8f9fa;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.preview pre {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-family: "Courier New", monospace;
+}
+.preview pre:hover {
+  background-color: #e9ecef;
+}
+.preview blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 15px;
+  color: #666;
+  margin: 20px 0;
+  font-style: italic;
+}
+.preview blockquote:hover {
+  background-color: #f8f8f8;
+}
+.preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.preview table th,
+.preview table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.preview table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+.preview table tr:hover {
+  background-color: #f1f1f1;
+}
+.preview .task-list-item {
+  list-style-type: none;
+}
+.preview .task-list-item input {
+  margin-right: 10px;
+}
+.preview body,
+.preview a,
+.preview li,
+.preview blockquote,
+.preview pre,
+.preview table th,
+.preview table td {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}/*# sourceMappingURL=admin.css.map */
